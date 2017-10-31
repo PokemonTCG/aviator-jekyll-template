@@ -1,6 +1,6 @@
 # Pokemon TCG API Documentation
 
-[![Build Status](https://travis-ci.org/MagicTheGathering/mtg-docs.svg?branch=master)](https://travis-ci.org/MagicTheGathering/mtg-docs)
+[![Build Status](https://travis-ci.org/PokemonTCG/pokemon-tcg-docs.svg?branch=master)](https://travis-ci.org/PokemonTCG/pokemon-tcg-docs)
 
 Welcome to the API documentation! Please feel free to make pull requests if you see something is out of date, or you wish to provide additional docs for an SDK or the API itself.
 
@@ -22,9 +22,9 @@ To add a code section for an SDK, check the examples in the files of the `_api_v
 
 ```
 ~~~ python
-from mtgsdk import Card
+from pokemontcgsdk import Card
 
-card = Card.find(386616)
+card = Card.find('xy1-1')
 ~~~
 {: title="python" }
 ```
