@@ -23,7 +23,10 @@
 	<body>
 		<header>
 			<h1>
-				<a href="/"><img src="/images/logo.svg" height="40" alt="{{ site.title }} logo"></a>
+				<a class="logo" href="/">
+					<img src="/images/logo.png" height="40" alt="{{ site.title }} logo">
+					<span>Pokémon TCG Developers</span>
+				</a>
 				<button type="button" class="open-nav" id="open-nav"></button>
 			</h1>
 
@@ -35,8 +38,16 @@
 			{% include sidebar.html %}
 
 			<p class="copyright">
-				<a href="https://cloudcannon.com/">
-					Template by CloudCannon
+				<a href="https://pokemontcg.io">
+					pokemontcg.io
+				</a>
+				<br />
+				<a href="https://discord.gg/dpsTCvg">
+					Discord Server
+				</a>
+				<br />
+				<a href="https://ko-fi.com/A5302KVN">
+					Donate
 				</a>
 			</p>
 		</header>

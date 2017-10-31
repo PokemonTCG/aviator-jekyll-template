@@ -456,9 +456,16 @@ header {
 		@include align-items(center);
 		border-bottom: 1px solid rgba(0, 0, 0, 0.075);
 
+		.logo {
+			display: flex;
+			flex-direction: row;
+			text-align: center;
+			text-decoration: none;
+		}
+
 		img {
 			height: 26px;
-			margin: 0 18px;
+			margin-left: 18px;
 		}
 	}
 

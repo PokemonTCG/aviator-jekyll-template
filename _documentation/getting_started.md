@@ -3,20 +3,17 @@ title: Getting Started
 position: 1
 ---
 
-Welcome to our API.
+Welcome to the Pokémon TCG API! You can use the API to access Pokémon TCG API endpoints, which can get information on cards and sets. All API access is performed over HTTPS and accessed from the `https://api.pokemontcg.io` domain.
 
-This API document is designed for those interested in developing for our platform.
+To use the API endpoints, the format is as follows:
 
-This API is still under development and will evolve.
+`https://api.pokemontcg.io/<version>/<resource>`
 
-You'll succeed if you do this.
-{: .success }
+For example:
 
-Here's some useful information.
-{: .info }
+`https://api.pokemontcg.io/v1/cards`
 
-Something may not happen if you try and do this.
-{: .warning }
+There are multiple SDKs available to make it even easier to consume the API.
+To chat with other developers and discuss the API and SDKs, check out the [Discord Server](https://discord.gg/dpsTCvg)!
 
-Something bad will happen if you do this.
-{: .error }
+[![pokemontcg-developers on discord](https://img.shields.io/badge/discord-pokemontcg--developers-738bd7.svg)](https://discord.gg/dpsTCvg)
