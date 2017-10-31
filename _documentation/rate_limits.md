@@ -21,6 +21,6 @@ Third-party applications are currently throttled to 5000 requests per hour. As t
 
 #### Rationale
 
-As previously mentioned, the primary goal is to provide a responsive interface for developers and users to use when accessing the Pokémon TCG data. Since each request made to the API incurs a computational cost, it’s in the best interest of both Magic: The Gathering API and its developer partners that these costs be minimized to the greatest degree possible.
+As previously mentioned, the primary goal is to provide a responsive interface for developers and users to use when accessing the Pokémon TCG data. Since each request made to the API incurs a computational cost, it’s in the best interest of both the Pokémon TCG API and its developer partners that these costs be minimized to the greatest degree possible.
 
 Rate limiting also helps third-party developers by encouraging them to build their integrations to make economical use of API requests.
