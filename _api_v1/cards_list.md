@@ -122,6 +122,9 @@ setCode
 retreatCost
 : The amount of energy it takes to retreat. Found on the bottom of the card.
 
+convertedRetreatCost
+: The retreat cost represented as a number.
+
 text
 : Any additional text on a card. This includes special rules (like MEGA rules or EX), and text that appears on Trainer cards.
 
@@ -181,15 +184,11 @@ require 'pokemon_tcg_sdk'
 cards = Pokemon::Card.all
 
 # Filter Cards
-# You can chain 'where' clauses together. The key of the hash
-# should be the URL parameter you are trying to filter on
-cards = Pokemon::Card.where(supertype: 'pokemon')
-                     .where(types: 'dragon|fire|flying')
-                     .where(hp: 'gt100')
-                     .all
+# The keys of the hash should be the URL parameter you are trying to filter on
+cards = Pokemon::Card.where(supertype: "pokemon", types: "dragon|fire|flying", hp: "gt100")
 
 # Get cards on a specific page / pageSize
-cards = Pokemon::Card.where(page: 50).where(pageSize: 500).all
+cards = Pokemon::Card.where(page: 50, pageSize: 500)
 ~~~
 {: title="ruby" }
 
@@ -200,15 +199,11 @@ from pokemontcgsdk import Card
 cards = Card.all()
 
 # Filter Cards
-# You can chain 'where' clauses together. The key of the hash
-# should be the URL parameter you are trying to filter on
-cards = Card.where(supertype='pokemon') \
-            .where(types='dragon|fire|flying') \
-            .where(hp='gt100') \
-            .all()
+# The keys of the hash should be the URL parameter you are trying to filter on
+cards = Card.where(supertype='pokemon', types='dragon|fire|flying', hp='gt100')
 
 # Get cards on a specific page / pageSize
-cards = Card.where(page=50).where(pageSize=500).all()
+cards = Card.where(page=50, pageSize=500)
 ~~~
 {: title="python" }
 

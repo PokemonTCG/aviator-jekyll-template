@@ -94,16 +94,16 @@ require 'pokemon_tcg_sdk'
 sets = Pokemon::Set.all
 
 # Filter Sets
-sets = Pokemon::Set.where(standardLegal: true).all
+sets = Pokemon::Set.where(standardLegal: true)
 
 # Get sets on a specific page / pageSize
-sets = Pokemon::Set.where(page: 2).where(pageSize: 10).all
+sets = Pokemon::Set.where(page: 2, pageSize: 10)
 
 # Get sets updated since a particular date
-sets = Pokemon::Set.where(updatedSince: '02-10-2018').all
+sets = Pokemon::Set.where(updatedSince: '02-10-2018')
 
 # Get sets updated since a particular date/time
-sets = Pokemon::Set.where(updatedSince: '02-10-2018 15:30:00').all
+sets = Pokemon::Set.where(updatedSince: '02-10-2018 15:30:00')
 ~~~
 {: title="ruby" }
 
@@ -114,16 +114,16 @@ from pokemontcgsdk import Set
 sets = Set.all()
 
 # Filter Sets
-sets = Set.where(standardLegal=true).all()
+sets = Set.where(standardLegal=true)
 
 # Get sets on a specific page / pageSize
-sets = Set.where(page=2).where(pageSize=10).all()
+sets = Set.where(page=2, pageSize=10)
 
 # Get sets updated since a particular date
-sets = Set.where(updatedSince='02-10-2018').all()
+sets = Set.where(updatedSince='02-10-2018')
 
 # Get sets updated since a particular date/time
-sets = Set.where(updatedSince='02-10-2018 15:30:00').all()
+sets = Set.where(updatedSince='02-10-2018 15:30:00')
 ~~~
 {: title="python" }
 
