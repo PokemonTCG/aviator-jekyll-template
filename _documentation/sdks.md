@@ -12,3 +12,4 @@ There are multiple developer SDKs available. To see how to install and use them,
 - Kotlin SDK: [https://github.com/PokemonTCG/pokemon-tcg-sdk-kotlin](https://github.com/PokemonTCG/pokemon-tcg-sdk-kotlin)
 - Elixir SDK: [https://github.com/PokemonTCG/pokemon-tcg-sdk-elixir](https://github.com/PokemonTCG/pokemon-tcg-sdk-elixir)
 - PHP SDK: [https://github.com/PokemonTCG/pokemon-tcg-sdk-php](https://github.com/PokemonTCG/pokemon-tcg-sdk-php)
+- Typescript SDK: [https://github.com/PokemonTCG/pokemon-tcg-sdk-typescript](https://github.com/PokemonTCG/pokemon-tcg-sdk-typescript)
