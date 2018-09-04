@@ -158,6 +158,9 @@ abilityText
 abilityType
 : The type of the ability (such as Poké-Power, Poké-Body, Pokémon Power or Ability)
 
+evolvesFrom
+: The evolution of a card (what Pokémon it evolves from)
+
 contains
 : Filter on cards that contain a specific field in the JSON response (ex. ?contains=ancientTrait)
 
