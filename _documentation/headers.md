@@ -1,6 +1,6 @@
 ---
 title: Headers
-position: 5
+position: 6
 right_code: |
   ~~~ http
   HTTP/1.1 200 Ok
@@ -12,6 +12,9 @@ right_code: |
   Ratelimit-Remaining: 4999
   ~~~
 ---
+
+This section pertains to V1 only.
+{: .info }
 
 There are quite a few custom response headers available when making a request. Some of these will only show up when the results are paginated.
 

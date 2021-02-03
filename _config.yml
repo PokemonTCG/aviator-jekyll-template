@@ -11,11 +11,11 @@ collections:
   documentation:
     title: Documentation
     position: 1
-  api_v1:
-    title: API (v1)
+  api_v2:
+    title: API v2
     position: 2
-  advanced:
-    title: Advanced Usage
+  api_v1:
+    title: API v1 (Deprecated)
     position: 3
 gems:
   - jekyll-sitemap
